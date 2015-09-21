@@ -202,8 +202,9 @@ public class PreconditionEnforcer extends Processor  {
      *         we can proceed to process this url.
      */
     protected boolean considerRobotsPreconditions(CrawlURI curi) {
+        return false;
         // treat /robots.txt fetches specially
-        UURI uuri = curi.getUURI();
+       /* UURI uuri = curi.getUURI();
         try {
             if (uuri != null && uuri.getPath() != null &&
                     curi.getUURI().getPath().equals("/robots.txt")) {
@@ -264,7 +265,7 @@ public class PreconditionEnforcer extends Processor  {
         if (logger.isLoggable(Level.FINE)) {
             logger.fine("robots.txt prerequisite failed " + curi);
         }
-        return true;
+        return true; */
     }
 
     /**
