@@ -42,7 +42,6 @@ import org.archive.modules.net.ServerCache;
 import org.archive.net.UURI;
 import org.springframework.beans.factory.annotation.Autowired;
 
-
 /**
  * Ensures the preconditions for a fetch -- such as DNS lookup 
  * or acquiring and respecting a robots.txt policy -- are
