@@ -91,10 +91,35 @@ http://maven.apache.org/guides/mini/guide-m1-m2.html
 	</pluginRepositories>
 
 	<repositories>
-		<repository>
-			<id>builds.archive.org,maven2</id>
-			<url>http://builds.archive.org/maven2</url>
-		</repository>
+                <repository>
+                        <id>apache</id>
+                        <url>https://repository.apache.org/releases/</url>
+                </repository>
+                <repository>
+                        <id>pentaho</id>
+                        <url>http://repo.pentaho.org/content/groups/omni/</url>
+                </repository>
+                <repository>
+                        <id>mapr</id>
+                        <url>http://repository.mapr.com/maven/</url>
+                </repository>
+                <repository>
+                        <id>pyx4me</id>
+                        <url>http://www.pyx4me.com/maven2/</url>
+                </repository>
+                <repository>
+                        <id>HDPReleases</id>
+                        <url>http://repo.hortonworks.com/content/repositories/releases/</url>
+                </repository>                
+                <repository>
+                        <id>cloudera</id>
+                        <url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
+                </repository>  
+               <!-- <repository>
+                        <id>builds.archive.org,maven2</id>
+                        <url>http://builds.archive.org/maven2</url>
+                </repository>-->
+
 	</repositories>
 
 	<prerequisites>
