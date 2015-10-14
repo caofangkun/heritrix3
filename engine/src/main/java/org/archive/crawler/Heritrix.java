@@ -327,7 +327,7 @@ public class Heritrix {
         
         // Set timezone here.  Would be problematic doing it if we're running
         // inside in a container.
-        TimeZone.setDefault(TimeZone.getTimeZone("GMT"));
+        TimeZone.setDefault(TimeZone.getTimeZone("GMT+8"));
 
         setupGlobalProperties(port); 
         
